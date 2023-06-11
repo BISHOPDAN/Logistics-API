@@ -1,0 +1,47 @@
+{
+    "success": true,
+    "status": "200",
+    "message": "Request is successful",
+    "data": {
+        "order": {
+            "logistic_package": {
+                "logistic": {
+                    "name": "LaskyTravels",
+                    "slug_name": null,
+                    "rating": 2.38
+                },
+                "tracking_code": "7eb648a7-172f-4d5d-b5bc-d53056e2a520",
+                "from_location": "Oyo, Ibadan Central",
+                "to_location": "Lagos, Ikorodu",
+                "price": 900.0,
+                "pickup_time": 0,
+                "delivery_date": 2,
+                "active": true
+            },
+            "readable_status": "Unpicked",
+            "price": 6753600.0,
+            "status": "unpicked",
+            "created": "2023-02-23T21:06:09.257034Z",
+            "pickup_date": "2023-02-23",
+            "delivery_date": "2023-02-25",
+            "tracking_code": "LGP-ORD-a0a13839-22ef-485b-9ec2-0c6ea2a56484",
+            "package": 15
+        },
+        "get_cargo_type": "Parcel",
+        "name": "Ayomide Ayanwola",
+        "phone": "09056146543",
+        "email": "sketcherslodge@gmail.com",
+        "receiver_name": "Emmanuel",
+        "receiver_phone": "09056456543",
+        "receiver_email": "sketcherslodge@gmail.com",
+        "cargo": "parcel",
+        "cargo_name": "Iphone 14 pro max",
+        "quantity": 67.0,
+        "weight": 56.0,
+        "pickup": "Oyo",
+        "delivery": "Lagos",
+        "created": "2023-02-23T21:05:52.914159Z",
+        "tracking_code": "PKG-2abb8cde-fa7d-4628-abe2-53e8980dfc97"
+    },
+    "path": "/api/v1/cargo/packages/rud/nath-pkg-code/PKG-2abb8cde-fa7d-4628-abe2-53e8980dfc97/"
+}

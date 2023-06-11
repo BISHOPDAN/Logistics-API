@@ -1,0 +1,26 @@
+# name: Merge Testmode Branch with production
+
+# on:
+#   pull_request:
+#     branches:
+#       - testmode
+
+# permissions:
+#   contents: write
+
+# jobs:
+#   update-production:
+#     if: github.event.pull_request.merged == 'true'
+#     name: Merge testmode into production after a PR is merged
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#         with:
+#           fetch-depth: 0
+#       - name: Merge Master to Test mode branch
+#         uses: devvspaces/merge-branches@v1
+#         with:
+#           token: ${{ secrets.TOKEN }}
+#           from_branch: testmode
+#           to_branch: production
