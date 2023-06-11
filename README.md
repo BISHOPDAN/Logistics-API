@@ -175,7 +175,7 @@ Price Packages are also know as Route Plans
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@devvspaces](https://github.com/devvspaces) - Project Setup & Initial work
+- [@dani6ixsuccess](https://github.com/BISHOPDAN) - Project Setup & Initial work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
